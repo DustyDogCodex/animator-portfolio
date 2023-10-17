@@ -10,8 +10,9 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-bg': 'url(/LandingPage.jpeg)',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'about-bg': 'url(/AboutPage.jpeg)',
+        'portfolio-bg': 'url(/PortfolioPage.jpeg)',
+        'contact-bg': 'url(/ContactPageBG.svg)',        
       },
     },
   },

@@ -16,7 +16,7 @@ const SmoothLink = ({ page, currentPage, setCurrentPage }: LinkProps) => {
 
     return(
         <AnchorLink 
-            className={`${currentPage === lowerCasePage ? "text-purple-400" : ""} text-xl text-black cursor-pointer hover:text-violet-600 transition duration-500 hover:no-underline`} 
+            className={`${currentPage === lowerCasePage ? "text-blue-400" : ""} text-xl text-black cursor-pointer hover:text-sky-300 transition duration-500 hover:no-underline`} 
             href={`#${lowerCasePage}`}
             onClick={() => setCurrentPage(lowerCasePage)}
         >
@@ -47,7 +47,7 @@ function NavBar({ currentPage, setCurrentPage }: LinkProps) {
 
     return (
         <nav
-            className={`${topOfPage ? "bg-yellow-100" : "bg-fuchsia-500"} fixed top-0 z-50 w-full flex items-center justify-center text-black`}
+            className={`${topOfPage ? "bg-yellow-100" : "bg-orange-500"} fixed top-0 z-50 w-full flex items-center justify-center text-black`}
         >
             <div
                 className='w-full flex items-center justify-between py-5 px-10 xl:w-4/5'
