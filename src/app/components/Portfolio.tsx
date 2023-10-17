@@ -1,3 +1,5 @@
+import ProjectCard from "./ProjectCard"
+
 function Portfolio() {
     return (
         <section 
@@ -8,6 +10,7 @@ function Portfolio() {
                 <h1 className="text-center text-5xl text-amber-500">Portfolio</h1>
                 
                 {/* placeholder projects */}
+                <ProjectCard />
             </div>
         </section>
     )
