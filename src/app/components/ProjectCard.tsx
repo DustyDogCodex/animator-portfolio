@@ -4,19 +4,23 @@ import { motion } from 'framer-motion'
 function ProjectCard() {
     //useState for toggling flipped or not flipped status of project card
     const [ flipped, setFlipped ] = useState<Boolean>(false)
+    const [ animated, setAnimated ] = useState<Boolean>(false)
 
     //function to handle flipping animation
     function flipCard(){
-        setFlipped(!flipped)
+        if(!animated){
+            setFlipped(!flipped)
+            setAnimated(true)
+        }
     }
 
     return (
         <div 
-            className='w-[600px] h-[360px] rounded-lg'
+            className='card w-[400px] h-[600px] rounded-lg border border-black'
             onClick={flipCard}    
         >
             <motion.div
-                className='w-full h-full'
+                className='card-inside w-full h-full'
                 initial={false}
                 animate={{
                     rotateY: flipped ? 180 : 360
@@ -25,15 +29,16 @@ function ProjectCard() {
                     duration: 0.6,
                     animationDirection: 'normal'
                 }}
+                onAnimationComplete={() => setAnimated(false)}
             >
                 {/* front of card */}
-                <div className='bg-card-bg'>
-                    <h1>Front</h1>
+                <div className='card-front bg-card-front-bg w-full h-full'>
+                    <h1 className='text-white'>Front</h1>
                 </div>
 
                 {/* back of card */}
-                <div>
-                    <h1>Back</h1>
+                <div className='card-back bg-card-bg w-full h-full bg-contain bg-no-repeat rotateY'>
+                    <h1 className='text-white'>Back</h1>
                 </div>
             </motion.div>
         </div>
