@@ -10,7 +10,11 @@ function Portfolio() {
                 <h1 className="text-center text-5xl text-amber-500">Portfolio</h1>
                 
                 {/* placeholder projects */}
-                <ProjectCard />
+                <div className="flex flex-wrap gap-10">
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                </div>
             </div>
         </section>
     )

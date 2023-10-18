@@ -32,9 +32,9 @@ function ProjectCard() {
                 onAnimationComplete={() => setAnimated(false)}
             >
                 {/* front of card */}
-                <div className='card-front bg-card-bg w-full h-full bg-cover bg-no-repeat rounded-lg'>
-                    <h1 className='text-white'>Front</h1>
-                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequatur molestias facere quo doloremque veniam laborum dolorem libero ea unde.</p>
+                <div className='card-front bg-card-front-bg w-full h-full bg-cover bg-no-repeat rounded-lg'>
+                    <h1>Front</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequatur molestias facere quo doloremque veniam laborum dolorem libero ea unde.</p>
                 </div>
 
                 {/* back of card */}
