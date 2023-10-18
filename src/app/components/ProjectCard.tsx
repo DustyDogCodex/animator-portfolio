@@ -16,7 +16,7 @@ function ProjectCard() {
 
     return (
         <div 
-            className='card w-[400px] h-[600px]'
+            className='card w-full h-72 md:w-[400px] md:h-[600px]'
             onClick={flipCard}    
         >
             <motion.div

@@ -6,7 +6,7 @@ function Hero() {
             id="home"
             className="bg-hero-bg bg-no-repeat w-full h-screen bg-cover flex items-center justify-center"
         >
-            <div className="container border border-black h-full pt-20 relative">
+            <div className="container h-full pt-20 relative">
                 {/* place holder white circle for hero image */}
                 <div className="absolute bottom-16 left-16 bg-white w-1/2 h-3/5 rounded-full" />
                 

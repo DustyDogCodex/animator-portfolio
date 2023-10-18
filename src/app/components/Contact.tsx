@@ -5,9 +5,9 @@ function Contact() {
     return (
         <section 
             id="contact"
-            className="bg-contact-bg bg-no-repeat w-full h-screen bg-cover flex items-center justify-center"    
+            className="bg-contact-bg bg-no-repeat bg-center w-full h-screen bg-cover flex items-center justify-center"    
         >
-            <div className="container flex flex-col md:flex-row">
+            <div className="container flex flex-col md:flex-row p-3 md:p-0">
                 <div className="w-full md:w-1/2 z-20 bg-orange-400/80 rounded-lg p-3 text-white">
                     {/* heading and intro to section */}
                     <h2 className="text-2xl font-bold text-center md:text-left">{"Let's Connect"}</h2>
