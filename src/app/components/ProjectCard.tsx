@@ -16,7 +16,7 @@ function ProjectCard() {
 
     return (
         <div 
-            className='card w-[400px] h-[600px] rounded-lg border border-black'
+            className='card w-[400px] h-[600px]'
             onClick={flipCard}    
         >
             <motion.div
@@ -32,13 +32,15 @@ function ProjectCard() {
                 onAnimationComplete={() => setAnimated(false)}
             >
                 {/* front of card */}
-                <div className='card-front bg-card-front-bg w-full h-full'>
+                <div className='card-front bg-card-bg w-full h-full bg-cover bg-no-repeat rounded-lg'>
                     <h1 className='text-white'>Front</h1>
+                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consequatur molestias facere quo doloremque veniam laborum dolorem libero ea unde.</p>
                 </div>
 
                 {/* back of card */}
-                <div className='card-back bg-card-bg w-full h-full bg-contain bg-no-repeat rotateY'>
+                <div className='card-back bg-card-bg w-full h-full bg-cover bg-no-repeat rounded-lg'>
                     <h1 className='text-white'>Back</h1>
+                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cum possimus amet quasi dicta reprehenderit repellat cumque. Optio, non exercitationem!</p>
                 </div>
             </motion.div>
         </div>

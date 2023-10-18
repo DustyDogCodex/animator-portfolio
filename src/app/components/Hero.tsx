@@ -3,7 +3,7 @@ import Image from "next/image"
 function Hero() {
     return (
         <section 
-            id="hero"
+            id="home"
             className="bg-hero-bg bg-no-repeat w-full h-screen bg-cover flex items-center justify-center"
         >
             <div className="container border border-black h-full pt-20 relative">

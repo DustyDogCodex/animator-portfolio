@@ -4,7 +4,8 @@
 
 /* classes for card flipping animation */
 .card{
-    perspective: 500px;
+    perspective: 1000px;
+    position: relative;
 }
 
 .card-inside{
@@ -19,5 +20,5 @@
 }
 
 .card-back{
-    transform: rotateY(180);
+    transform: rotateY(180deg);
 }
