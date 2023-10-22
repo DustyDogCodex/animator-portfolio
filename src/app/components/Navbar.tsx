@@ -30,14 +30,14 @@ function NavBar() {
 
     return (
         <nav
-            className={`${topOfPage ? "bg-yellow-100" : "bg-orange-500"} fixed top-0 z-50 w-full flex items-center justify-center text-black`}
+            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-50 w-full flex items-center justify-center text-black`}
         >
             <div
                 className='w-full flex items-center justify-between py-5 px-10 xl:w-4/5'
             >
                 {/* brand logo and name */}
                 <div
-                    className='flex items-center justify-center'
+                    className='flex items-center justify-center text-3xl'
                 >  
                     <Link href={'/'}>
                         SHREYA!
@@ -47,14 +47,14 @@ function NavBar() {
                 {/* menu options */}
                 {aboveSmallScreens
                     ?
-                    <div className="flex justify-between gap-20">
+                    <div className="flex justify-between gap-10 text-3xl">
                         <Link href={'/about'}>
                             About
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/portfolio'}>
                             Portfolio
                         </Link>
-                        <Link href={'/'}>
+                        <Link href={'/contact'}>
                             Contact
                         </Link>
                     </div>
@@ -97,13 +97,13 @@ function NavBar() {
                             /* closes menu after a link is clicked */
                             onClick={() => setMenuToggled(!menuToggled)}
                         >
-                            <Link href={'/'}>
+                            <Link href={'/about'}>
                                 About
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'/portfolio'}>
                                 Portfolio
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'/contact'}>
                                 Contact
                             </Link>
                         </div>

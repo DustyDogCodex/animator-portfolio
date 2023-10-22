@@ -1,9 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Calligraffitti } from 'next/font/google'
 import NavBar from './components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const caligraffiti = Calligraffitti({ display:'swap', weight: "400", subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: 'Shreya\'s Portfolio',
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className={inter.className}>
+        <body className={caligraffiti.className}>
             <NavBar />
             {children}
         </body>

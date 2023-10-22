@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': 'url(/LandingPage.jpeg)',
+        /* 'hero-bg': 'url(/LandingPage.jpeg)',
         'about-bg': 'url(/AboutPage.jpeg)',
         'portfolio-bg': 'url(/PortfolioPage.jpeg)',
         'contact-bg': 'url(/ContactPageBG.svg)',
         'card-bg': 'url(/CardDesign.jpg)',
-        'card-front-bg': 'url(/tiger.jpg)',  
+        'card-front-bg': 'url(/tiger.jpg)',   */
       },
     },
   },
