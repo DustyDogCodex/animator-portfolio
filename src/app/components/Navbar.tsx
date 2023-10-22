@@ -37,7 +37,7 @@ function NavBar() {
             >
                 {/* brand logo and name */}
                 <div
-                    className='flex items-center justify-center text-3xl'
+                    className='flex items-center justify-center text-2xl md:text-3xl'
                 >  
                     <Link href={'/'}>
                         SHREYA!
