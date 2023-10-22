@@ -1,7 +1,9 @@
 import Image from "next/image"
+import PageTransition from "../components/PageTransition"
 
 function About() {
     return (
+        <PageTransition>
         <section 
             id="about"
             className="bg-about-bg bg-no-repeat bg-center w-full h-screen bg-cover flex items-center justify-center"
@@ -22,6 +24,7 @@ function About() {
                 </p>
             </div>
         </section>
+        </PageTransition>
     )
 }
 
