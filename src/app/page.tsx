@@ -4,9 +4,9 @@ import PageTransistion from "./components/PageTransition"
 export default function Home() {
     return (
         <PageTransistion>
-        <main className="flex min-h-screen flex-col">
-            <Hero />
-        </main>
-        </PageTransistion>
+            <main className="flex min-h-screen flex-col">
+                <Hero />
+            </main>
+        </PageTransistion> 
     )
 }

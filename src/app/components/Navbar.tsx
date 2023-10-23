@@ -30,7 +30,7 @@ function NavBar() {
 
     return (
         <nav
-            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-50 w-full flex items-center justify-center text-black`}
+            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-20 w-full flex items-center justify-center text-black`}
         >
             <div
                 className='w-full flex items-center justify-between py-5 px-10 xl:w-4/5'
