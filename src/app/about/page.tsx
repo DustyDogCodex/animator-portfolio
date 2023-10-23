@@ -6,9 +6,9 @@ function About() {
         <PageTransition>
         <section 
             id="about"
-            className="bg-about-bg bg-no-repeat bg-center w-full h-screen bg-cover flex items-center justify-center"
+            className="bg-about-bg bg-no-repeat bg-center w-full min-h-screen bg-cover flex items-center justify-center"
         >
-            <div className="container flex flex-col items-center justify-center gap-10 p-5">
+            <div className="container w-full flex flex-col items-center justify-center gap-10 p-5 md:p-0">
                 {/* image */}
                 <Image 
                     src="/animator-stock.jpg"
