@@ -1,8 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faInstagram, faLinkedin, faBehance } from "@fortawesome/free-brands-svg-icons"
+import PageTransistion from "../components/PageTransition"
 
 function Contact() {
     return (
+        <PageTransistion>
         <section 
             id="contact"
             className="bg-contact-bg bg-no-repeat bg-center w-full h-screen bg-cover flex items-center justify-center"    
@@ -79,6 +81,7 @@ function Contact() {
                 </div>
             </div>
         </section>
+        </PageTransistion>
     )
 }
 

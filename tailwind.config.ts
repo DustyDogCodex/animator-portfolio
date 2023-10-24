@@ -8,14 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        /* 'hero-bg': 'url(/LandingPage.jpeg)',
-        'about-bg': 'url(/AboutPage.jpeg)',
-        'portfolio-bg': 'url(/PortfolioPage.jpeg)',
-        'contact-bg': 'url(/ContactPageBG.svg)',
-        'card-bg': 'url(/CardDesign.jpg)',
-        'card-front-bg': 'url(/tiger.jpg)',   */
-      },
+      colors: {
+        'primary-bg': '#e6e2f8',
+        'primary-text': '#4800ff'
+      }
     },
   },
   plugins: [],

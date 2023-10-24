@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-        <body className={caligraffiti.className}>
+        <body className={`bg-primary-bg text-primary-text ${caligraffiti.className}`}>
             <NavBar />
             {children}
         </body>

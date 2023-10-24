@@ -30,7 +30,7 @@ function NavBar() {
 
     return (
         <nav
-            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-40 w-full flex items-center justify-center text-black`}
+            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-40 w-full flex items-center justify-center`}
         >
             <div
                 className='w-full flex items-center justify-between py-5 px-5 xl:w-4/5'
@@ -76,7 +76,7 @@ function NavBar() {
                 {/* after user clicks on a link, the menu will close automatically */}
                 {(
                     <div 
-                        className={`${ aboveSmallScreens ? 'hidden' : '' } fixed ${ menuToggled ? 'top-0' : '-top-[250px]'} h-[250px] right-0 w-full bg-orange-500 rounded-b-xl ease-in-out duration-700`}
+                        className={`${ aboveSmallScreens ? 'hidden' : '' } fixed ${ menuToggled ? 'top-0' : '-top-[250px]'} h-[250px] right-0 w-full bg-primary-bg rounded-b-xl ease-in-out duration-700`}
                     >
                         {/* X button on top to close menu */}
                         <div className="flex justify-end px-4 pt-5 mr-8">
