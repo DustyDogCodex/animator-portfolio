@@ -22,7 +22,7 @@ function Contact() {
                     {/* links to socials */}
                     <div className="mt-5 flex items-center justify-center md:justify-start gap-5">
                         <a
-                            href=''
+                            href='https://www.behance.net/shreyamalada35'
                             target="_blank"
                         >
                             <FontAwesomeIcon icon={faBehance} style={{ color:'black', height:'2rem', width:'2rem' }} />
@@ -34,7 +34,7 @@ function Contact() {
                             <FontAwesomeIcon icon={faInstagram} style={{ color:'black', height:'2rem', width:'2rem' }} />
                         </a>
                         <a
-                            href=''
+                            href='https://www.linkedin.com/in/shreya-malaviya-8712a924/'
                             target="_blank"
                         >
                             <FontAwesomeIcon icon={faLinkedin} style={{ color:'black', height:'2rem', width:'2rem' }} />
@@ -50,14 +50,14 @@ function Contact() {
                             id="email"
                             required
                             placeholder="Your email address"
-                            className="p-2 rounded-xl bg-slate-200 placeholder-sky-400"    
+                            className="p-2 rounded-xl bg-slate-400 placeholder-primary-text"    
                         />
                         <input 
                             type="text" 
                             id="subject"
                             required
                             placeholder="Subject"    
-                            className="p-2 rounded-xl bg-slate-200 placeholder-sky-400" 
+                            className="p-2 rounded-xl bg-slate-400 placeholder-primary-text" 
                         />
                         <textarea 
                             name="message" 
@@ -65,7 +65,7 @@ function Contact() {
                             placeholder="Connect with me by sending me a message!"
                             rows={6}
                             required
-                            className="p-2 rounded-xl bg-slate-200 placeholder-sky-400"  
+                            className="p-2 rounded-xl bg-slate-400 placeholder-primary-text"  
                         />
                         <div
                             className="w-full flex items-center justify-center"
