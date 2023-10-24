@@ -2,17 +2,17 @@
 import { motion } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBehance } from "@fortawesome/free-brands-svg-icons"
+import Image from "next/image"
 
 type ProjectProps = {
     title: string,
     subtitle: string,
+    source: string,
     links: { behance: string, instagram: string }
 }
 
-function ProjectCard2({ title, subtitle, links }: ProjectProps) {
-
-    //lowercasing project titles to reference project screenshots.
-    const projectTitle = title.split(" ").join("-").toLowerCase()
+function ProjectCard2({ title, subtitle, source, links }: ProjectProps) {
+    const fileExt = source.split('.')[1]
 
     //this controls the animations for each individual project
     const projectAnimation = {
@@ -51,14 +51,25 @@ function ProjectCard2({ title, subtitle, links }: ProjectProps) {
                 </div>
             </div>
 
-            {/* project mp4 */}
-            <video 
-                src={`/${projectTitle}.mp4`} 
-                className="w-full h-full object-cover"
-                autoPlay 
-                loop 
-                muted 
-            />
+            {/* Project source. Use video for mp4 files and Image for jpg files */}
+            {fileExt === 'mp4' 
+                ?
+                <video 
+                    src={`${source}`} 
+                    className="w-full h-full object-cover"
+                    autoPlay 
+                    loop 
+                    muted 
+                />
+                :       
+                <Image 
+                    src={`${source}`}
+                    alt={`Screenshot of ${title}`}
+                    width={300}
+                    height={300}
+                    className="w-full h-full object-cover"
+                />
+            }
         </motion.div>
     )
 }

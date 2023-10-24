@@ -6,24 +6,27 @@ import { motion } from "framer-motion"
 /* project list */
 const projects = [
     {
-        title: 'project1',
-        subtitle: 'project1',
+        title: 'Water Dragon',
+        subtitle: 'Character design art of a water dragon',
+        source: '/water-dragon.jpg',
         links: {
-            behance:'https://www.behance.net/',
+            behance:'https://www.behance.net/gallery/165621485/Water-Dragon',
             instagram:'https://www.instagram.com/'
         }
     },
     {
-        title: 'project2',
-        subtitle: 'project2',
+        title: 'Hand Drawn Style Animation',
+        subtitle: 'Animation created using hand drawn styling',
+        source: '/hand-drawn-style-animation.gif',
         links: {
-            behance:'https://www.behance.net/',
+            behance:'https://www.behance.net/gallery/165623405/Hand-Drawn-Style-Animation',
             instagram:'https://www.instagram.com/'
         }
     },
     {
         title: 'project3',
         subtitle: 'project3',
+        source: '',
         links: {
             behance:'https://www.behance.net/',
             instagram:'https://www.instagram.com/'
@@ -32,6 +35,7 @@ const projects = [
     {
         title: 'project4',
         subtitle: 'project4',
+        source: '',
         links: {
             behance:'https://www.behance.net/',
             instagram:'https://www.instagram.com/'
@@ -40,6 +44,7 @@ const projects = [
     {
         title: 'project5',
         subtitle: 'project5',
+        source: '',
         links: {
             behance:'https://www.behance.net/',
             instagram:'https://www.instagram.com/'
@@ -48,6 +53,7 @@ const projects = [
     {
         title: 'project6',
         subtitle: 'project6',
+        source: '',
         links: {
             behance:'https://www.behance.net/',
             instagram:'https://www.instagram.com/'
@@ -88,6 +94,7 @@ function Portfolio() {
                             key={index}
                             title={project.title}
                             subtitle={project.subtitle}
+                            source={project.source}
                             links={project.links}
                         />
                     )}
