@@ -44,24 +44,23 @@ function Contact() {
 
                 {/* contact me form */}
                 <div className="w-full md:w-1/2 px-0 md:px-5 mt-5 md:mt-0">
-                    <form action="https://formsubmit.co/shreya.malaviya@gmail.com" method="POST" className="flex flex-col gap-4">
+                    <form action="https://formsubmit.co/1771891286d6c1ce5fe2a31a30795d97" method="POST" className="flex flex-col gap-4">
                         <input 
                             type="email" 
-                            id="email"
+                            name="email"
                             required
                             placeholder="Your email address"
                             className="p-2 rounded-xl bg-slate-400 placeholder-primary-text"    
                         />
                         <input 
                             type="text" 
-                            id="subject"
+                            name="subject"
                             required
                             placeholder="Subject"    
                             className="p-2 rounded-xl bg-slate-400 placeholder-primary-text" 
                         />
                         <textarea 
-                            name="message" 
-                            id="message" 
+                            name="message"  
                             placeholder="Connect with me by sending me a message!"
                             rows={6}
                             required
