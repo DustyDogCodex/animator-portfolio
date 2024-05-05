@@ -11,7 +11,7 @@ const projects = [
         source: '/water-dragon.jpg',
         links: {
             behance:'https://www.behance.net/gallery/165621485/Water-Dragon',
-            instagram:'https://www.instagram.com/'
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         source: '/hand-drawn-style-animation.gif',
         links: {
             behance:'https://www.behance.net/gallery/165623405/Hand-Drawn-Style-Animation',
-            instagram:'https://www.instagram.com/'
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     },
     {
@@ -29,7 +29,7 @@ const projects = [
         source: '/2D-animation-show-reel.gif',
         links: {
             behance:'https://www.behance.net/gallery/81743443/2D-animation-show-reel',
-            instagram:'https://www.instagram.com/'
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     },
     {
@@ -37,8 +37,8 @@ const projects = [
         subtitle: 'A showreel of animations created by me',
         source: '/showreel-shreya-malaviya.mp4',
         links: {
-            behance:'https://www.behance.net/',
-            instagram:'https://www.instagram.com/'
+            behance:'https://www.behance.net/shreyamalada35',
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     },
     {
@@ -46,8 +46,8 @@ const projects = [
         subtitle: 'An animated cat video created by me',
         source: '/animated-cat.mp4',
         links: {
-            behance:'https://www.behance.net/',
-            instagram:'https://www.instagram.com/'
+            behance:'https://www.behance.net/shreyamalada35',
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     },
     {
@@ -55,8 +55,8 @@ const projects = [
         subtitle: 'An animated video of boats on the sea',
         source: '/sea-boats.mp4',
         links: {
-            behance:'https://www.behance.net/',
-            instagram:'https://www.instagram.com/'
+            behance:'https://www.behance.net/shreyamalada35',
+            instagram:'https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
         }
     }
 ]

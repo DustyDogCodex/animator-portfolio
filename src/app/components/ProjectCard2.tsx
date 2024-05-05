@@ -1,7 +1,7 @@
 'use client'
 import { motion } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBehance } from "@fortawesome/free-brands-svg-icons"
+import { faBehance, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import Image from "next/image"
 
 type ProjectProps = {
@@ -40,11 +40,18 @@ function ProjectCard2({ title, subtitle, source, links }: ProjectProps) {
 
                 {/* github and live demo links for project */}
                 <div
-                    className="flex items-center mt-2"
+                    className="flex items-center mt-2 gap-5"
                 >
                     <a href={`${links.behance}`} target="_blank">
                         <FontAwesomeIcon 
                             icon={faBehance} 
+                            style={{color: "#000000", height:'25px', width:'25px'}} 
+                        />
+                    </a>
+
+                    <a href={`${links.instagram}`} target="_blank">
+                        <FontAwesomeIcon 
+                            icon={faInstagram} 
                             style={{color: "#000000", height:'25px', width:'25px'}} 
                         />
                     </a>

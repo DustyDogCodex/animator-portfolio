@@ -28,7 +28,7 @@ function Contact() {
                             <FontAwesomeIcon icon={faBehance} style={{ color:'black', height:'2rem', width:'2rem' }} />
                         </a>
                         <a
-                            href=''
+                            href='https://www.instagram.com/fire_stone97/?igsh=OHl4c3lwdmp4b29t'
                             target="_blank"
                         >
                             <FontAwesomeIcon icon={faInstagram} style={{ color:'black', height:'2rem', width:'2rem' }} />
@@ -44,7 +44,7 @@ function Contact() {
 
                 {/* contact me form */}
                 <div className="w-full md:w-1/2 px-0 md:px-5 mt-5 md:mt-0">
-                    <form action="" method="POST" className="flex flex-col gap-4">
+                    <form action="https://formsubmit.co/shreya.malaviya@gmail.com" method="POST" className="flex flex-col gap-4">
                         <input 
                             type="email" 
                             id="email"

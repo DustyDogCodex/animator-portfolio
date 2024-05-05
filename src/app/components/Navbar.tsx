@@ -30,10 +30,10 @@ function NavBar() {
 
     return (
         <nav
-            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-40 w-full flex items-center justify-center`}
+            className={`${topOfPage ? "" : "bg-orange-500"} fixed top-0 z-40 w-full flex items-center justify-center bg-white`}
         >
             <div
-                className='w-full flex items-center justify-between py-5 px-5 xl:w-4/5'
+                className='w-full flex items-center justify-between font-bold py-5 px-5 xl:w-4/5'
             >
                 {/* brand logo and name */}
                 <div
