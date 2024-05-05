@@ -26,11 +26,17 @@ function Hero() {
                 </div> */}
 
                 {/* Potential Landing Page 2 */}
-                <div className="w-full h-screen flex flex-col md:flex-row items-center md:justify-between">
+                <div className="w-full h-screen flex flex-col md:flex-row items-center md:justify-between gap-5">
                     {/* tagline/intro */}
                     <div className="flex flex-col items-center justify-center h-1/2 md:h-full">   
                         <p className="text-5xl text-center">
-                            Animator and Designer
+                            Animator
+                        </p>
+                        <p className="text-5xl text-center">
+                            &
+                        </p>
+                        <p className="text-5xl text-center">
+                            Learning Content Designer
                         </p>
                         <p className="text-3xl mt-5">Based in the U.K.</p>
 
